@@ -1,0 +1,6 @@
+((license "BSD")
+ (category graphics)
+ (depends foreigners)
+ (foreign-depends "libfontconfig")
+ (author "Matt Gushee")
+ (synopsis "A wrapper for the fontconfig C library."))

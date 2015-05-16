@@ -1,0 +1,6 @@
+(compile -O -s -lfontconfig fontconfig.scm -j fontconfig)
+(compile -O -s -lfontconfig fontconfig.import.scm)
+(install-extension
+  'fontconfig
+  '("fontconfig.so" "fontconfig.import.so")
+  '((version "0.1")))
